@@ -1,0 +1,11 @@
+Package: lsyncd-doc
+Source: lsyncd
+Version: 0.1.1-1
+Architecture: all
+Maintainer: Heribert Tockner <drucko@drucko.at>
+Installed-Size: 26
+Section: admin
+Priority: extra
+Homepage: http://debian.drucko.at
+Description: documentation for lsyncd
+ Documentation and examples for Lsyncd
