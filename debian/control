@@ -1,0 +1,21 @@
+Source: lsyncd
+Section: admin
+Priority: extra
+Maintainer: Heribert Tockner <drucko@drucko.at>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.2
+Homepage: http://debian.drucko.at
+Vcs-Git: git://github.com/drucko/lsyncd.git
+#Vcs-Git: git://git.debian.org/collab-maint/lsyncd.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/lsyncd.git;a=summary
+
+Package: lsyncd
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Lsyncd watches a local directory trees event monitor interface (inotify or fsevents).
+ It aggregates and combines events for a few seconds and then spawns one (or more) process(es) to synchronize the changes.
+
+Package: lsyncd-doc
+Architecture: all
+Description: documentation for lsyncd
+ Documentation and examples for Lsyncd
